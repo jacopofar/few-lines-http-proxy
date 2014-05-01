@@ -2,8 +2,10 @@ This Java library,based on LittleProxy, is made to ease the development of HTTP 
 
 To use it, implement the `BasicNavigationManipulator` interface with a class and start the proxy with:
 
-`HttpFiltersSourceAdapter fs=new InspectorFilterSourceAdapter(new MyProxyClass());`
-`DefaultHttpProxyServer.bootstrap()..withFiltersSource(fsadapter).withTransparent(true).start()`
+```java
+HttpFiltersSourceAdapter fs=new InspectorFilterSourceAdapter(new MyProxyClass());
+DefaultHttpProxyServer.bootstrap()..withFiltersSource(fsadapter).withTransparent(true).start()
+```
 
 Through chaining you can also define a port (default 8080) and other details, see LittleProxy documentation for more details.
 
