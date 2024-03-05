@@ -1,3 +1,6 @@
+**Archived: this code is 10 years old now and I don't even remember what it does exactly**
+
+
 This Java library,based on LittleProxy, is made to ease the development of HTTP proxies allowing to log and edit HTTP requests and responses with a few lines of codes.
 
 To use it, implement the `BasicNavigationManipulator` interface with a class and start the proxy with:
